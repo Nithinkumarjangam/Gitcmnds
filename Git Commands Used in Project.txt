@@ -1,0 +1,33 @@
+Git Commands:
+------------
+1) sudo yum update -y
+2) sudo yum install git -y
+3) git init .
+4) touch file1 file2 file3
+5) git add *
+6) git status 
+7) git commit -m "commit message" *
+8) git log
+9) git log --oneline (we can see all commits done)
+10) git log --follow --all <File Name> (all commits in single file )
+11) git show --name-only <file name> (only latest commit)
+
+12) git remote add origin <path of the Git Hub URL>
+13) git push orgin master
+    user name :
+    password : token in git hub
+14) after doing the fork 
+15) In local Repo use
+	git clone <path of the fork form git hub account>
+16) git pull <path of the git hub project link> <Branch Name>
+17) git pull origin main or master
+18) git merge dev (from master)
+19) git branch <Branch Name> -T create a branch
+20) git checkout -b <Branch Name>
+21) git checkout <Branch Name> (To shift another branch)
+22) git branch --> To see the which branch currently
+23) git branch -d <Branch Name>  --> To delete the branch
+24) git remote -v --> To see the remote origin
+25) git fetch <remote origin> --> Only information we can see.
+26) git rebase <Branch Name> 
+27) git branch -m <old branch> <new branch> --> To change the branch name.
